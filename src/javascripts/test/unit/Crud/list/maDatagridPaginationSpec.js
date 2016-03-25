@@ -22,7 +22,7 @@ describe('directive: ma-datagrid-pagination', function () {
             scope.$digest();
 
             var totalElement = element.querySelector('.pagination-bar .total');
-            expect(totalElement.innerText.trim()).toBe('No record found.');
+            expect(totalElement.innerText.trim()).toBe('无数据');
         });
 
         it('should display the current data range', function() {
